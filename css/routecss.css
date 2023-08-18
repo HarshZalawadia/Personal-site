@@ -1,0 +1,53 @@
+/* Apply general styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the map container */
+#map {
+    width: 100%; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+}
+
+/* Style the output div for displaying data */
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Style the upload form */
+#upload-form {
+    margin-top: 20px;
+}
+
+/* Style the submit button */
+#submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style file input */
+#data-file {
+    display: none;
+}
+
+/* Style the label for file input */
+#data-file-label {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the label when file is selected */
+#data-file-label.selected {
+    background-color: #28a745;
+}
